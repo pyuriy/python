@@ -2,6 +2,8 @@
 
 Concise reference for Python 3.x built-in collections and iterables: List, Dictionary, Set, Tuple, Range, Enumerate, Iterator, Generator. Extended with Deque, Counter, DefaultDict, NamedTuple.
 
+[Additions](./collections-add.md)
+
 ## List
 ```python
 lst = []                          # Empty list.

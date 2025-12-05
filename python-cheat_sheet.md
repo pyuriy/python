@@ -6,7 +6,7 @@ This cheat sheet provides an exhaustive, simple, and concise reference for Pytho
 
 | Section | Subtopics |
 |---------|-----------|
-| 1. Collections | List, Dictionary, Set, Tuple, Range, Enumerate, Iterator, Generator |
+| 1. [Collections](./collections.md) | List, Dictionary, Set, Tuple, Range, Enumerate, Iterator, Generator |
 | 2. Types | Type, String, Regular Exp, Format, Numbers, Combinatorics, Datetime |
 | 3. Syntax | Function, Inline, Import, Decorator, Class, Duck Type, Enum, Except |
 | 4. System | Exit, Print, Input, Command Line Arguments, Open, Path, OS Commands |

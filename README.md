@@ -1,3 +1,3 @@
 ## My Python docs collection
 
-- [Pydantic Validation](./"Pydantic Validation"/README.md)
+- [Pydantic Validation](./Pydantic%20Validation/README.md)

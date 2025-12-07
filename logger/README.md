@@ -1,5 +1,4 @@
 # Python Logging Configuration Guide
-## ScyllaDB Alternator Backup Tool
 
 ## Overview
 

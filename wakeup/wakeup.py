@@ -4,7 +4,7 @@
 import pyautogui
 import time
 import keyboard
-import win32gui
+# import win32gui
 from datetime import datetime
 
 def set_status_available():
@@ -17,7 +17,7 @@ def set_status_available():
 
     # Navigate to your profile picture and click on it
     time.sleep(2)
-    teams_window = win32gui.FindWindow(None, "Microsoft Teams")
+    # teams_window = win32gui.FindWindow(None, "Microsoft Teams")
     # if teams_window:
     #     win32gui.SetForegroundWindow(teams_window)
     #     pyautogui.moveTo(100, 100)  # Adjust this to match your Teams window position
@@ -40,7 +40,8 @@ def check_q_press(event):
     print(event, 'q pressed. Exiting, wait for a while...')
 
 def main():
-
+    
+    print('Press "CTRL+C" to exit the program.')
     global q_pressed # Declare that we are modifying the global variable 
 
     keyboard.on_press_key('q', check_q_press) #This registers a callback function that sets the global variable.
@@ -54,4 +55,8 @@ def main():
     print('Exiting...')
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\n\nInterrupted by user.")
+        exit()
